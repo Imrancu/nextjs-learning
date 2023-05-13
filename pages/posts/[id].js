@@ -7,7 +7,7 @@ import utilStyles from '../../styles/utils.module.css';
 export default function Post({ postData }) {
   return (
     <Layout>
-      
+
       <Head>
         <title>{postData.title}</title>
       </Head>
@@ -33,7 +33,6 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
-
 
 // export async function getStaticProps({ params }) {
 //   const postData = getPostData(params.id);
